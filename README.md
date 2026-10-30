@@ -1,6 +1,6 @@
 # Questify
 
-A plain to-do list gives you no reason to open it again tomorrow. Questify turns tasks into quests that earn XP, levels and a place in weekly and monthly leagues against your friends.
+Questify is a German to-do app for Android and the web. Finished tasks earn XP, levels and a place in weekly and monthly leagues against your friends.
 
 <p>
   <img src="docs/screenshots/01-start.png" alt="Start screen with level, season progress and the next quests" width="200">
@@ -9,7 +9,7 @@ A plain to-do list gives you no reason to open it again tomorrow. Questify turns
   <img src="docs/screenshots/04-leaderboard.png" alt="Monthly leaderboard among friends" width="200">
 </p>
 
-Screenshots: the public landing page, mobile viewport, taken with Playwright on 30 Oct 2026. The phone screens show the app's built-in demo account (Mira and her friends are seed data, not real users).
+Screenshots: the public landing page, mobile viewport, taken with Playwright on 30 Oct 2026. The phone screens show seed data from the app's test fixtures. Mira and her friends are not real users, and visitors cannot use that data.
 
 ## Try it
 
@@ -19,25 +19,25 @@ Screenshots: the public landing page, mobile viewport, taken with Playwright on 
 
 ## My role
 
-Nikita Vassiljev ([GitHub](https://github.com/vassiljevnikita-sudo)), solo developer: concept, app code, design and releases. I built it with AI coding agents (Claude and OpenAI Codex). In the private source repository, 362 of the 383 commits on `main` come from my account and 21 from Codex agent accounts; 354 commits name an AI agent as co-author.
+Nikita Vassiljev ([GitHub](https://github.com/vassiljevnikita-sudo)), solo developer: concept, app code, design and releases. I built it with AI coding agents (Claude and OpenAI Codex).
 
 ## Tech stack
 
-- TypeScript 6.0.3 (type-checked with tsc-rs 0.2.0); two small native Android modules in Kotlin (launcher icon per look, haptic patterns)
-- React Native 0.86.3 with React 19.2.3, Expo SDK 57 (`expo` 57.0.30), Expo Router 57.0.28, React Native Web 0.21.4 for the web build
-- TanStack Query 5.104.4 for server state, Reanimated 4.5.1 for animation
-- Supabase (Postgres, Auth) through `@supabase/supabase-js` 2.118.0
-- Tests and tooling: Vitest 3.2.7, Playwright 1.62.1, pnpm 10.17.1, Node 26.7 or newer
+- TypeScript; two small native Android modules in Kotlin (launcher icon per look, haptic patterns)
+- React Native and Expo with Expo Router; React Native Web for the web build
+- TanStack Query for server state, Reanimated for animation
+- Supabase (Postgres, Auth)
+- Tests: Vitest and Playwright
 - Hosting: web on EAS Hosting (`*.expo.app`), Android APK on GitHub Releases
 
-The full dependency list with versions is in [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
+Exact versions of every dependency are in [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
 
 ## Limitations
 
 - The source code is private. This repository holds the Android builds, the screenshots and the stack list.
-- Android only as an APK outside Google Play, so Android asks you to allow the install. There is no iOS app.
+- Android only as an APK outside Google Play, so Android asks you to allow the install. There is no native iOS app; on an iPhone, use the web app in the browser.
 - The interface is German only.
-- You need an account. The web app has no guest or demo mode; the demo data above exists only in the screenshots.
+- You need an account. The web app has no guest or demo mode; the seed data in the screenshots is not reachable from the live app.
 - Solo project: no external security audit, no uptime guarantee.
 
 ## Install on Android
