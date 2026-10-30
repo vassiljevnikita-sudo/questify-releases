@@ -39,6 +39,7 @@ Exact versions of every dependency are in [docs/ARCHITECTURE.md](docs/ARCHITECTU
 - The interface is German only.
 - You need an account. The web app has no guest or demo mode; the seed data in the screenshots is not reachable from the live app.
 - Solo project: no external security audit, no uptime guarantee.
+- The readme releases are for this public facing version only and do not reflect the real developtment cycle.
 
 ## Install on Android
 
