@@ -1,6 +1,6 @@
 # Questify
 
-Questify is a German to-do app for Android and the web. Finished tasks earn XP, levels and points in weekly and monthly leagues against your friends.
+Questify is a German to-do app for Android and the web. Finished tasks earn XP, levels and a place in weekly and monthly leagues against your friends.
 
 <p>
   <img src="docs/screenshots/01-start.png" alt="Start screen with level, season progress and the next quests" width="200">
