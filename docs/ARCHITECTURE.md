@@ -9,7 +9,7 @@ The Questify source repository is private. This file is the public record of wha
 - One Expo app (`apps/mobile`) builds both targets: the Android APK and the web app. The web build uses React Native Web.
 - Screens use Expo Router for navigation and TanStack Query for data from the server.
 - The backend is Supabase: Postgres for data, Supabase Auth for email and password sign-in. The database schema and the game rules (XP, rewards, anti-cheat) live in a separate private repository.
-- For tests and previews the app has a fixture backend: an in-memory copy of the backend contract with seed data (the demo account "Mira" in the screenshots). Production builds refuse it.
+- For tests and previews the app has a fixture backend: an in-memory copy of the backend contract with seed data ("Mira" and her friends in the README screenshots, not real users). Production builds refuse it.
 - Two local Expo modules are written in Kotlin: `questify-app-icon` switches the Android launcher icon per look, `questify-haptics` defines named vibration patterns.
 - Hosting: the web build runs on EAS Hosting at [mastertasker.expo.app](https://mastertasker.expo.app/). Android APKs are published in this repository's [Releases](https://github.com/vassiljevnikita-sudo/questify-releases/releases).
 
