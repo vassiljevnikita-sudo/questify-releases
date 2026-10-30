@@ -1,6 +1,6 @@
 # Questify
 
-Questify is a German to-do app for Android and the web. Finished tasks earn XP, levels and a place in weekly and monthly leagues against your friends.
+Questify is a German to-do app for Android and the web. Finished tasks earn XP, levels and a place on weekly and monthly leaderboards with your friends.
 
 <p>
   <img src="docs/screenshots/01-start.png" alt="Start screen with level, season progress and the next quests" width="200">
@@ -48,7 +48,7 @@ Exact versions of every dependency are in [docs/ARCHITECTURE.md](docs/ARCHITECTU
 
 To update, install the newer APK over the old one. Your quests and progress are stored on the server, so nothing is lost.
 
-Each release also has a `SHA256SUMS` file. To check a download on a computer:
+Release 1.1.0 and later have a `SHA256SUMS` file; 1.0.0 has only the APK. To check a download on a computer:
 
 ```bash
 sha256sum questify.apk   # compare with the line in SHA256SUMS on the release page
