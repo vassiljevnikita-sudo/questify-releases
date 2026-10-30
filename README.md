@@ -19,7 +19,7 @@ Screenshots: the public landing page, mobile viewport, taken with Playwright on 
 
 ## My role
 
-Nikita Vassiljev ([GitHub](https://github.com/vassiljevnikita-sudo)), solo developer: concept, app code, design and releases. I built it with AI coding agents (Claude and OpenAI Codex).
+I'm Nikita Vassiljev ([GitHub](https://github.com/vassiljevnikita-sudo)), the solo developer: concept, design and releases. I built the app code with AI coding agents (Claude, OpenAI Codex).
 
 ## Tech stack
 
