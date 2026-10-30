@@ -19,7 +19,7 @@ Screenshots: the public landing page, mobile viewport, taken with Playwright on 
 
 ## My role
 
-I'm Nikita Vassiljev ([GitHub](https://github.com/vassiljevnikita-sudo)), the solo developer: concept, design and releases. I built the app code with AI coding agents (Claude, OpenAI Codex).
+I'm Nikita Vassiljev ([GitHub](https://github.com/vassiljevnikita-sudo)), the solo developer: concept, design and releases. I built the app code with the chatgpt website in Okt. 2025 before there was readely available mcp, tool call or on device agent support and you had to debug the app yourself. In Sep. 2026 Claude Fable 5.1 updatet the techstack to more modern standards.
 
 ## Tech stack
 
